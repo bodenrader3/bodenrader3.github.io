@@ -10,7 +10,7 @@
 	<meta property="og:site_name" content="Bodenrader">
 	<link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,sans-serif;  width:600px;}
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,sans-serif;  width:400px;}
 </style>
 </head>
 
@@ -23,9 +23,9 @@ BODENRADER
     <form action="https://jargonprojects.us20.list-manage.com/subscribe/post?u=ab9facee4805f3765bd6a656d&amp;id=2c9561f80e&amp;f_id=00ef26e7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+	<label for="mce-EMAIL">
 </label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+	<input type="email" value="" placeholder="Email Address *" name="EMAIL" class="required email" id="mce-EMAIL" required>
 	<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
 </div>
 	<div id="mce-responses" class="clear">
@@ -80,6 +80,7 @@ html, body {
     vertical-align: middle;
 }
 .centered-content {
+	padding-top:150px;
     display: inline-block;
     vertical-align: middle;
     font-family: decay-alt;
@@ -88,7 +89,7 @@ html, body {
 }
 
 .mc-field-group{
-	padding-top:50px;
+	padding-top:100px;
 	font-family: Helvetica;
     text-transform: uppercase;
     letter-spacing: 0.02em;
@@ -96,13 +97,26 @@ html, body {
     }
 
 .button{
-	font-family: Helvetica;
+	font-family: helvetica;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-	background-color: #000 !important;
-	padding: 5 15px !important;
+	background-color: #fff !important;
+    color:#000 !important;
+	border: 1px solid black!important;
     }
-
+.button:hover{
+	background-color: #000 !important;  
+    color:#fff !important;
+}
+.response{
+	font-family: helvetica;
+    font-weight:400!important;
+    letter-spacing: 0.03em;
+    text-align:center !important;
+    float:none !important;
+    color:#000 !important;
+    margin: -1em 0 1em 0 !important;
+}
 </style>
 </body>
 </html>
